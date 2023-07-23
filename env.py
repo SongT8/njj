@@ -31,4 +31,3 @@ except ValueError:
 
 if 'postgres' in DATABASE_URL and 'postgresql' not in DATABASE_URL:
     DATABASE_URL = DATABASE_URL.replace("postgres", "postgresql")
-  
